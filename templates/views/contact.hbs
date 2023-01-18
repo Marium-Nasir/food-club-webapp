@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <div class="fullcontainer">
+        {{>header}}
+        <div class="content" id="one">
+            {{!-- <div id="msgdiv" class="box">
+                <form action="/message" method="post">
+                    <div class="formholder">
+                        <h1>Contact Us</h1>
+                        <hr>
+                        <input type="text" name="fname" class="cinput" placeholder="Enter Your Name"><br>
+                        <input type="text" name="address" class="cinput" placeholder="Enter Your Location"><br>
+                        <input type="email" name="email" class="cinput" placeholder="Enter Your Email Address"><br>
+                        <input type="tel" name="phone" class="cinput" placeholder="Enter Your Phone Number"><br>
+                        <textarea name="message" id="msgboxtext" cols="30" rows="10"
+                            placeholder="Write Message"></textarea><br>
+                        <input type="submit" id="submitmsg" value="Send Message">
+                    </div>
+
+                </form>
+            </div> --}}
+            <div id="contact" class="box">
+
+                <div class="bgimg cbox">
+                    <h1 id="ch">Contact Us</h1>
+                </div>
+                <div class="type cbox">
+                    <div class="cbox2">
+                        <h2>Location</h2>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="mariumnasirse@gmail.com" class="cboxa">Gulshan e Iqbal</a>
+                    </div>
+                    <div class="cbox2">
+                        <h2>Call Us</h2>
+                        <i class="fa-solid fa-phone-volume cicon"></i>
+                        <a href="03172451046" class="cboxa">0317-2451046</a>
+                    </div>
+                    <div class="cbox2">
+                        <h2>Email Us</h2>
+                        <i class="fa-solid fa-envelope cicon"></i>
+                        <a href="mariumnasirse@gmail.com" class="cboxa">mariumnasirse@gmail.com</a>
+                    </div>
+
+                    <div class="cbox2">
+                        <h2>Message</h2>
+                        <i class="fa-solid fa-message cicon"></i>
+                        <button type="button" id="msg"><a href="/message">Write a Message</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {{>footer}}
+    </div>
+    {{!--
+    <script src="script.js"></script> --}}
+</body>
+
+</html>

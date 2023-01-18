@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <div class="fullcontainer">
+        {{>header}}
+        <div class="content" id="one">
+            <div id="order" class="box" >
+                
+                <div class="ordercontainer">
+                    {{!-- <div class="foronlineorder obox">
+                        <h2 style="color: red;">For Online</h2>
+                        <h3>Call Now</br> 0316-7865432</h3>
+
+                        <i class="fa-sharp fa-solid fa-phone call"></i>
+                    </div>
+                    <div class="fortakeaway obox">
+                        <h2 style="color: red;">For Takeaway</h2>
+                        <h3>Visit Now</br>Gulshan e Iqbal</h3>
+
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div> --}}
+
+                    {{!-- <form action="/slip" method="post"> --}}
+                       <div class="orderform">
+                           <h2>Order Now</h2>
+                           <hr>
+                           <input type="text" name="orname" id="" placeholder="Enter Your Order"><br>
+
+                           <input type="text" name="orinp" id="" placeholder="Enter Your Order"><br>
+
+                           <input type="text" name="oraddress" id="" placeholder="Enter Your Address">
+
+                           <input type="text" name="ornmbr" id="" placeholder="Enter Your Contact Number">
+
+                           {{!-- <input type="submit" value="Place Order"> --}}
+
+                       </div>
+                    {{!-- </form> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <div class="fullcontainer">
+        {{>header}}
+        <div class="content" id="one">
+           {{!-- {{>msg}} --}}
+           <div id="msgdiv" class="box">
+    <form action="/message" method="post">
+        <div class="formholder">
+            <h1>Contact Us</h1>
+            <hr>
+            <input type="text" name="fname" class="cinput" placeholder="Enter Your Name"><br>
+            <input type="text" name="address" class="cinput" placeholder="Enter Your Location"><br>
+            <input type="email" name="email" class="cinput" placeholder="Enter Your Email Address"><br>
+            <input type="tel" name="phone" class="cinput" placeholder="Enter Your Phone Number"><br>
+            <textarea name="message" id="msgboxtext" cols="30" rows="10" placeholder="Write Message"
+                ></textarea><br>
+            <input type="submit" id="submitmsg" value="Send Message">
+        </div>
+
+    </form>
+</div>
+        </div>
+        {{>footer}}
+    </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
